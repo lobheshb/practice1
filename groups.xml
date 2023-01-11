@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+	  <groups>
+		  <run>
+			  <include name="login"></include>
+		  </run>
+		  
+	  </groups>
+    <classes>
+      <class name="Selenium.sample13"/>
+      <class name="Selenium.sample14"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
